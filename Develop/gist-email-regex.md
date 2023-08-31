@@ -39,10 +39,6 @@ of the string and $ to indicate the ending of the string.
 Quantifiers in this regex includes the + operator, which will connect the users email name + email service + .com.
 Another quantifier for this regex includes {2,6} , which will allow a match range of 2-6 characters for the character set of [a-z\.].
 
-### OR Operator
-
-The regex OR operator is (|). It is not used in this pattern.
-
 ### Character Classes
 
 In the context of regular expressions, a character class is a set of characters enclosed within square brackets. It specifies the
@@ -96,9 +92,9 @@ on which flags you use) respectively. This means that when you want to match a l
 characters with a backslash.
 The boundaries on our email regex pattern are
 
-    /^
+    ^
 
-    $/
+    $
 
 ### Back-references
 
